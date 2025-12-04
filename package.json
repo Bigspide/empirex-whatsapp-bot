@@ -1,0 +1,18 @@
+{
+  "name": "empirex-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp pour Empire X",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "twilio": "^4.20.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
